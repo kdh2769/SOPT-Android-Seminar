@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SignUpActivity">
 
-
     <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="0dp"
@@ -14,17 +13,13 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="40dp"
         android:background="@drawable/round_blank_edge"
-
         android:ems="10"
         android:inputType="textPersonName"
-
         android:minHeight="48dp"
-
-        android:text="아이디를 입력해주세요"
         android:paddingStart="15dp"
-        android:textSize="15dp"
-        android:textColor="#C4C4C4"
-
+        android:text="@string/input_id"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView8"
@@ -34,18 +29,15 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-
-        android:text="비밀번호를 입력해주세요"
-        android:paddingStart="15dp"
-        android:textSize="15dp"
-        android:textColor="#C4C4C4"
-
-        android:background="@drawable/round_blank_edge"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="40dp"
-
+        android:background="@drawable/round_blank_edge"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="15sp"
+        android:text="@string/input_password"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView9"
@@ -55,28 +47,24 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SOPTHub"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:textColor="#F658A6"
-
         android:layout_marginTop="70dp"
+        android:text="@string/sopthub"
+        android:textColor="@color/pink"
+        android:textSize="40sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="회원가입"
-        android:textSize="25dp"
-        android:textColor="@color/black"
-
-        android:textStyle="bold"
         android:layout_marginTop="10dp"
-
+        android:text="@string/signup"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -88,12 +76,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-
-        android:text="이름"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:text="@string/name"
         android:textColor="@color/black"
-
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -101,14 +87,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:text="아이디"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-
         android:layout_marginTop="30dp"
-
+        android:text="@string/id"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
 
@@ -116,13 +99,11 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:text="비밀번호"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
         android:layout_marginTop="30dp"
-
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
@@ -131,19 +112,15 @@
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/round_blank_edge"
         android:ems="10"
         android:inputType="textPersonName"
-
-        android:text="이름을 입력해주세요"
-        android:textColor="#C4C4C4"
-        android:textSize="15dp"
         android:paddingStart="15dp"
-
-        android:background="@drawable/round_blank_edge"
-
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="10dp"
-
+        android:text="@string/input_name"
+        android:textColor="@color/gray"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView7"
@@ -154,14 +131,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:text="회원가입 완료"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:textSize="15dp"
-
-        android:background="@drawable/round_full_edge"
         android:layout_marginBottom="100dp"
-
+        android:background="@drawable/round_full_edge"
+        android:text="@string/sign_complete"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
