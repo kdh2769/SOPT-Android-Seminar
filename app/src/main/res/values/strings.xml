@@ -23,6 +23,16 @@
     <string name="mbti">MBTI</string>
     <string name="entj">ENTJ</string>
     <string name="introduce">Kotlin으로 안드로이드 개발을 시작해 설랩니다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--foll0ow-layout-->
+    <string name="hwang">황상혁</string>
+    <string name="hwang_profile">미대생</string>
+    <string name="jido">김호주</string>
+    <string name="jido_profile">사업가</string>
+    <string name="btn_follow">팔로워 목록</string>
+    <string name="btn_repo">레포지토리 목록</string>
 
 
 </resources>
