@@ -4,11 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginEnd="30dp"
+    android:background="@drawable/round_blank_edge"
+    android:padding="20dp"
+
+    >
 
     <ImageView
         android:id="@+id/iv_profile"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1:1"
@@ -21,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@id/iv_profile"
@@ -31,7 +38,8 @@
         android:id="@+id/tv_introduce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@id/tv_name"
         app:layout_constraintTop_toBottomOf="@id/tv_name"

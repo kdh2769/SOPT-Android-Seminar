@@ -8,9 +8,11 @@
     tools:context=".RepositoryRecyclerView">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_follower"
+        android:id="@+id/rv_repo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="10"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -6,7 +6,7 @@ import android.os.PersistableBundle
 import org.sopt.androidseminar1.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
-    private var position = FOLLOW
+
 
     private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?){
@@ -25,20 +25,23 @@ class HomeActivity : AppCompatActivity() {
 
         supportFragmentManager.beginTransaction().add(R.id.container_main, fragment1).commit()
 
-
         binding.btnFollow.setOnClickListener {
-            val transaction =  supportFragmentManager.beginTransaction()
+            val transaction = supportFragmentManager.beginTransaction()
 
+            transaction.replace(R.id.container_main, fragment1)
+
+            transaction.commit()
         }
+
         binding.btnRepo.setOnClickListener {
+            val transaction = supportFragmentManager.beginTransaction()
 
+            transaction.replace(R.id.container_main, fragment2)
+
+            transaction.commit()
         }
 
     }
 
-    companion object{
-        const val FOLLOW= 1
-        const val REPOSITORY = 2
-    }
 }
 

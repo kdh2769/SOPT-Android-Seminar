@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.sopt.androidseminar1.databinding.ItemRepositoryGridBinding
 
 class RepositoryAdapter : RecyclerView.Adapter<RepositoryAdapter.RepositoryViewHolder>() {
-    private val userList = mutableListOf<RepoData>()
+    val userList = mutableListOf<RepoData>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int
     ): RepositoryViewHolder {
